@@ -5,8 +5,8 @@ namespace CompleteProject
 {
     public class EnemyAttack : MonoBehaviour
     {
-        public float timeBetweenAttacks = 2f;     // The time in seconds between each attack.
-        public int attackDamage = 1;               // The amount of health taken away per attack.
+        public float timeBetweenAttacks = 0.1f;     // The time in seconds between each attack.
+        public int attackDamage = 2;               // The amount of health taken away per attack.
 
 
         Animator anim;                              // Reference to the animator component.

@@ -21,7 +21,7 @@ namespace CompleteProject
             PlayerPrefs.SetInt("Highscore", score);
 
             // Reset the score.
-            //score = 0;
+            score = 0;
         }
 
 

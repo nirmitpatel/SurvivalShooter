@@ -22,9 +22,8 @@ public class PauseManager : MonoBehaviour {
 	
 	void Update()
 	{
-        pauseButton.enabled = true;
+        pauseButton.interactable = true;
 		canvas.enabled = !canvas.enabled;
-		
 	}
 	
 	public void Pause()

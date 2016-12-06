@@ -6,7 +6,7 @@ namespace CompleteProject
     {
         public int startingHealth = 100;            // The amount of health the enemy starts the game with.
         public int currentHealth;                   // The current health the enemy has.
-        public float sinkSpeed = .5f;              // The speed at which the enemy sinks through the floor when dead.
+        public float sinkSpeed = 1f;              // The speed at which the enemy sinks through the floor when dead.
         public int scoreValue = 10;                 // The amount added to the player's score when the enemy dies.
         public AudioClip deathClip;                 // The sound to play when the enemy dies.
 
@@ -54,7 +54,7 @@ namespace CompleteProject
             enemyAudio.Play ();
 
             // Reduce the current health by the amount of damage sustained.
-            currentHealth -= (amount*5);
+            currentHealth -= (amount*2);
             
             // Set the position of the particle system to where the hit was sustained.
             hitParticles.transform.position = hitPoint;

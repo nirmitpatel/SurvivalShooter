@@ -89,6 +89,7 @@
     <Compile Include="Assets\VirtualJoystick.cs" />
     <Compile Include="Assets\_CompletedAssets\Scripts\Audio\MixLevels.cs" />
     <Compile Include="Assets\_CompletedAssets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\_CompletedAssets\Scripts\DoNotDestroyOnload.cs" />
     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyAttack.cs" />
     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyHealth.cs" />
     <Compile Include="Assets\_CompletedAssets\Scripts\Enemy\EnemyMovement.cs" />

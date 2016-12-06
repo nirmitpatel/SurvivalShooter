@@ -16,7 +16,7 @@ public class menuScript : MonoBehaviour {
         startText = startText.GetComponent<Button>();
         exitText = exitText.GetComponent<Button>();
         quitMenu.enabled = false;
-        highscoreText.text = "Highscore : " + PlayerPrefs.GetInt("Highscore");
+        //highscoreText.text = "Highscore : " + PlayerPrefs.GetInt("Highscore");
     }
 	
     public void ExitPress ()
@@ -44,6 +44,6 @@ public class menuScript : MonoBehaviour {
     }
 	// Update is called once per frame
 	void Update () {
-	
-	}
+        highscoreText.text = "Highscore : " + PlayerPrefs.GetInt("Highscore");
+    }
 }

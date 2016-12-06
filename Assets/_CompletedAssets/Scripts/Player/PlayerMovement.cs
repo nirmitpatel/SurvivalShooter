@@ -34,11 +34,11 @@ namespace CompleteProject
         void FixedUpdate ()
         {
             // Store the input axes.
-            //float h = CrossPlatformInputManager.GetAxisRaw("Horizontal");
-            //float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
+            float h = CrossPlatformInputManager.GetAxisRaw("Horizontal");
+            float v = CrossPlatformInputManager.GetAxisRaw("Vertical");
 
-            float h = joystick.Horizontal();
-            float v = joystick.Vertical();
+            //float h = joystick.Horizontal();
+            //float v = joystick.Vertical();
 
             // Move the player around the scene.
             Move (h, v);
